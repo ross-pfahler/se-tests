@@ -9,7 +9,8 @@ By default the tests run in Firefox. Make sure it is installed on your computer.
 Clone the repo and run ```npm install```
 
 ### Run Tests
-cd into the directory in which it is cloned and run ```npm test```
+cd into the directory in which it is cloned and run ```npm test``` to run all tests.
+To run a particular test, simply run ```./nightwatch -t tests/example.js``` where "example.js" is the name of the test you want to run.
 
 Test output will be displayed in the console and in the reports folder.
 
