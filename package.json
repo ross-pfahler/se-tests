@@ -1,0 +1,13 @@
+{
+  "name": "se-tests",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "nightwatch": "0.1.7",
+    "selenium-standalone": "2.39.0-2.8.0-2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./nightwatch"
+  }
+}
